@@ -1,0 +1,19 @@
+﻿La génération a démarré 05/12/2016 15:34:04.
+     1>Projet "D:\SVN\2016-2017\Sections\Prog1A\mbrochado\Pierre\Base\ProjetSFML\ProjetSFML.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Fonction.cpp ProjetSFML.cpp stdafx.cpp
+         stdafx.cpp
+         ProjetSFML.cpp
+         Fonction.cpp
+     1>d:\svn\2016-2017\sections\prog1a\mbrochado\pierre\base\projetsfml\fonction.cpp(48): warning C4013: 'sqrt' non défini(e) ; extern retournant int pris par défaut
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SVN\2016-2017\Sections\Prog1A\mbrochado\Pierre\Base\Debug\ProjetSFML.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib "csfml-system-2.lib" "csfml-window-2.lib" "csfml-graphics-2.lib" "csfml-audio-2.lib" "csfml-network-2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\SVN\2016-2017\Sections\Prog1A\mbrochado\Pierre\Base\Debug\ProjetSFML.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SVN\2016-2017\Sections\Prog1A\mbrochado\Pierre\Base\Debug\ProjetSFML.lib" /MACHINE:X86 Debug\Fonction.obj
+         Debug\ProjetSFML.obj
+         Debug\stdafx.obj
+         ProjetSFML.vcxproj -> D:\SVN\2016-2017\Sections\Prog1A\mbrochado\Pierre\Base\Debug\ProjetSFML.exe
+     1>Génération du projet "D:\SVN\2016-2017\Sections\Prog1A\mbrochado\Pierre\Base\ProjetSFML\ProjetSFML.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.06
