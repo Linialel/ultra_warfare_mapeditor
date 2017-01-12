@@ -11,7 +11,7 @@ void Boucle_de_jeu(UTILS* _utils, INGAME* _inGame)
 		_inGame->mouse_relative.x = (float)mouseI.x;
 		_inGame->mouse_relative.y = (float)mouseI.y;
 		_inGame->mouse_absolute = sfRenderWindow_mapPixelToCoords(_utils->window, (sfMouse_getPosition(_utils->window)), _utils->camera.camera);
-		printf("\r %0.0f %0.0f\t", _utils->camera.taille_camera.x, _utils->camera.taille_camera.y);
+		printf("\r %d\t", _inGame->tab_map[0][0]);
 		Commande(_utils, _inGame);
 
 		sfView_setSize(_utils->camera.camera, _utils->camera.taille_camera);
